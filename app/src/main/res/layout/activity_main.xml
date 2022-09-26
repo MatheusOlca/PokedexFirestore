@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+    <EditText
+        android:id="@+id/editNumber"
+        android:hint="@string/editNumber"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/editName"
+        android:hint="@string/editName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/editTypeOne"
+        android:hint="@string/editTypeOne"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/editTypeTwo"
+        android:hint="@string/editTypeTwo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:text="@string/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

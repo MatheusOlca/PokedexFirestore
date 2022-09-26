@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppFirestore</string>
+    <string name="editNumber">Digite o Número</string>
+    <string name="editName">Digite o Nome</string>
+    <string name="editTypeOne">Digite o Primeiro Tipo</string>
+    <string name="editTypeTwo">Digite o Segundo Tipo</string>
+    <string name="btnRegister">Cadastrar</string>
+</resources>
