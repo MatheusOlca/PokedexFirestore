@@ -4,5 +4,14 @@
     <string name="editName">Digite o Nome</string>
     <string name="editTypeOne">Digite o Primeiro Tipo</string>
     <string name="editTypeTwo">Digite o Segundo Tipo</string>
-    <string name="btnRegister">Cadastrar</string>
+    <string name="btn_create">Cadastrar</string>
+    <string name="create_button">Create</string>
+    <string name="update_button">Update</string>
+    <string name="delete_button">Delete</string>
+    <string name="pokemon_id">ID</string>
+    <string name="pokemon_name">Name</string>
+    <string name="pokemon_type_one">1# Type</string>
+    <string name="pokemon_type_two">2# Type</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
 </resources>

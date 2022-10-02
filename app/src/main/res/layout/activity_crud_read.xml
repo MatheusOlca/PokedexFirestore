@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:background="@color/design_default_color_error">
+
+        <Button
+            android:id="@+id/create_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_button"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/update_button"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_button"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:stretchColumns="2"
+        android:background="@color/white">
+
+        <TableRow>
+            <TextView
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="2dp"
+                android:text="@string/pokemon_id"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_error"/>
+            <TextView
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="2dp"
+                android:text="@string/pokemon_name"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_error"/>
+            <TextView
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="2dp"
+                android:text="@string/pokemon_type_one"
+                android:textColor="@color/black"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/design_default_color_error"/>
+            <TextView
+                android:paddingHorizontal="5dp"
+                android:paddingVertical="2dp"
+                android:text="@string/pokemon_type_two"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+        <View
+            android:layout_height="4dp"
+            android:background="@color/design_default_color_error"/>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/data_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

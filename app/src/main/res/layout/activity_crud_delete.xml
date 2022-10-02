@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_error">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <NumberPicker
+            android:id="@+id/delete_popup_id"
+            android:tooltipText="@string/editNumber"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingHorizontal="3dp"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/delete_popup_act"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_delete"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+</LinearLayout>
